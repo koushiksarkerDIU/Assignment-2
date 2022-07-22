@@ -6,6 +6,7 @@
 main {
     margin: 0;
     padding: 0;
+    width: 1500px;
 }
 
 /* 1st container */
@@ -16,7 +17,7 @@ main {
 
 .banner {
     display: flex;
-    width: 1280px;
+    width: 1320px;
     height: 720px;
     background: #161616;
     border-radius: 30px;
@@ -71,12 +72,19 @@ main {
 
 /*--------------------------------
 ------------- section info ------*/
+.section-header {
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+}
+
 .section-info {
-    width: 300px;
+    width: 20%;
     height: 300px;
     background: #161616;
     border-radius: 10px;
     display: block;
+    margin-right: 24px;
 }
 
 .group-section {
@@ -118,18 +126,8 @@ main {
 
 /* blogs start  */
 
-.section-header {
-    display: flex;
-    width: 1280px;
-    margin-top: 100px;
-}
-
-.section-info {
-    width: 30%;
-    margin-right: 24px;
-}
-
 .blogs {
+    width: 70%;
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, 1fr);
@@ -209,18 +207,6 @@ main {
 
 
 /* Upcoming match  */
-.Upcoming-matchs {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
-}
-
-.Upcoming-match {
-    border: 1px solid #E8E8E8;
-    border-radius: 10px;
-}
-
 .match-info {
     margin: 50px 30px;
 }
@@ -239,3 +225,7 @@ main {
     margin: 50px;
     text-align: center;
 }
+
+
+/* media queries */
+/* mobile devices */
